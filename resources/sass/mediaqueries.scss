@@ -1,0 +1,72 @@
+@media (max-width: 575.98px) { 
+    .swiper-button.swiper-button-next{
+        display: none;
+    }
+
+    .swiper-button.swiper-button-prev{
+        display: none;
+    }
+    body .hero__content h4, body .hero__content .h4{
+        padding: 0;
+    }
+    body .service{
+        border-radius: 0;;
+    }
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    body .nav__menu{
+        display: none;
+    }
+
+    
+
+    .swiper-button.swiper-button-next{
+        right: 10px;
+    }
+
+    .swiper-button.swiper-button-prev{
+        left: 10px;
+    }
+
+
+    body .nav__hamburger{
+        display: block;
+        margin: 20px 0;
+    }
+
+    body .copyright__wrapper{
+        flex-direction: column;
+    }
+
+    body .copyright__item{
+        margin: 5px 0;
+    }
+
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    .nav__cta{
+        display: none;
+    }
+
+    body .footer__text{
+        padding: 0;
+    }
+
+    body .footer__title{
+        margin-top: 40px;
+    }
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+
+ }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { 
+
+ }
