@@ -13,8 +13,30 @@
 
 Route::get('/', function () {
     return view('user.index');
-});
+})->name('home');
 
-Route::get('/1', function () {
-    return view('user.index1');
-});
+
+Route::get('/sportowcy', function () {
+    return view('user.sportowcy');
+})->name('sportowcy');
+
+Route::get('/zwiazki-kluby', function () {
+    return view('user.zwiazki');
+})->name('zwiazki');
+
+Route::get('/fitness', function () {
+    return view('user.fitness');
+})->name('fitness');
+
+Route::get('/trenerzy-managerowie', function () {
+    return view('user.trenerzy');
+})->name('trenerzy');
+
+Route::get('/organizatorzy', function () {
+    return view('user.organizatorzy');
+})->name('organizatorzy');
+
+
+Route::get('/sponsorzy', function () {
+    return view('user.sponsorzy');
+})->name('sponsorzy');

@@ -3,11 +3,7 @@ import Swiper from 'swiper/bundle';
 
 $('.nav__hamburger').on('click', function(){
     $(this).toggleClass('active');
-    $('.nav__menu').toggleClass('nav__menu--mobile');
-    setTimeout(function(){
-        $('.nav__menu').toggleClass('is-active');
-
-    }, 100)
+    $('.nav__menu').toggleClass('is-active');
 })
 
 $(".faq__item").on('click', function(){
@@ -30,6 +26,24 @@ const swiper = new Swiper('.swiper-container-hero', {
     },
   
   });
+
+  const swiper2 = new Swiper('.swiper-container-hero-single', {
+    // Optional parameters
+    direction: 'horizontal',
+    allowTouchMove: false,
+    loop: false,
+  
+    
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
+
+  
 
   const swiper1 = new Swiper('.swiper-container-sponsor', {
     // Optional parameters

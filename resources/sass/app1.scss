@@ -45,35 +45,19 @@ body{
             align-items: center;
             padding: 0;
 
-            &--mobile{
-                top: -900%;
-                position: absolute;
-                background: rgba( $primary-c, 0.99);
-                width: 100%;
-                z-index: 999;
-                left: 0;
-                transition: all 0.4s ease;
-                display: block !important;
+            
 
-
-                li{
-                    text-align: center;
-                    color: $white;
-                    padding: 35px 0;
-                }
-
-                &.is-active{
-                    top: 100%;
-                    transition: all 0.4s ease;
-
-                }
-            }
         }
 
         &__item{
             padding: 25px 20px;
             font-size: 1.05rem;
             position: relative;
+
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
 
             &--is-active{
                 font-weight: 600;
@@ -98,6 +82,7 @@ body{
             border-top: 3px solid $primary-c;
             background: transparent;
             position: relative;
+            cursor: pointer;
             transition: 0.3s transform linear;
 
             &::before, &::after{
@@ -133,6 +118,10 @@ body{
         
         height: 600px;
 
+        &--single{
+            height: 300px;
+        }
+
         .swiper-container{
             height: 100%;
         }
@@ -141,16 +130,34 @@ body{
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            position: relative;
+
+            &::after{
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                z-index: 1;
+                top: 0;
+                background-color:rgba(#000, 0.6);;
+            }
         }
 
         &__content{
             display: flex;
             flex-direction: column;
+            position: relative;
+            z-index: 3;
             align-items: center;
             height: 500px;
             justify-content: center;
             color: $white;
             text-align: center;
+
+            &--single{
+                height: 300px;
+            }
 
             h1{
                 font-size: 2.5rem;
@@ -187,23 +194,32 @@ body{
             transition: 0.4s ease;
             position: relative;
 
+            a{
+                text-decoration: none;
+                color: $white;
+            }
+
             &::after{
                 position: absolute;
-                border-radius: 10px;
                 width: 100%;
-                height: 100%;
-                background: rgba(#000, 0.6);
+                height: 90px;
+                background: rgba(#000, 0.4);
                 content: '';
                 transition: all 0.4s ease;
-                top: 0;
+                top: calc(100% - 90px);
+                border-radius: 0 0 10px 10px;
             }
 
             &:hover::after{
                 background: rgba($primary-c, 0.8);
+                border-radius: 10px;
+                top: 0;
+                height: 100%;
+
             }
 
             &:hover > div{
-               top: 20%;
+               top: 10%;
             }
 
             &:hover{
@@ -283,7 +299,7 @@ body{
         }
     }
     .about{
-        padding: 70px 0;
+        padding: 70px 0 35px;
         
         &__wrapper{
             background-color: $silver;
@@ -322,7 +338,7 @@ body{
     }
 
     .sponsors{
-        padding: 0 0 70px;
+        padding: 35px 0;
         .swiper-container-sponsor{
             width: 100%;
         }
@@ -416,6 +432,96 @@ body{
             }
         }
     }
+
+    .service-s{
+        padding: 70px 0;
+        background: $white;
+
+        &__left{
+            background-color: $silver;
+            border-radius: 10px;
+            padding-bottom: 20px;
+
+            h4{
+                font-size: 18px;
+                font-weight: 600;
+                padding: 30px 30px 20px;
+            }
+
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    
+                    padding: 10px 0px 10px 35px ;
+
+                    a{
+                        text-decoration: none;
+                        color: inherit;
+                        display: block;
+                        transition: all 0.4s ease;
+                        position: relative;
+
+                        
+
+                        &.active{
+                            font-weight: 600;
+                            color: $primary-c;
+                        }
+
+                        &::after{
+                            content: url('../images/up-arrow.svg');
+                            position: absolute;
+                            right: 10px;
+                            transform: rotate(90deg);
+                            filter: $filter-silver;
+                            top: 3px;
+                            height: 5px;
+                            width: 5px;
+                            transition: 0.4s ease;
+                        }
+
+                        &:hover{
+                            margin-left: 10px;
+                        }
+
+                        &:hover::after{
+                            filter: $filter-primary;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__right{
+            margin-left: 20px;
+
+            h1{
+                font-weight: 600;
+                font-size: 34px;
+                margin: 0;
+            }
+
+            p{
+                font-size: 1rem;
+                margin: 15px 0 0;
+
+                &.strong{
+                    font-weight: 600;
+                    margin-bottom: 15px;
+                }
+            }
+
+            ol{
+                li{
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
 }
+
 
 @import 'mediaqueries'

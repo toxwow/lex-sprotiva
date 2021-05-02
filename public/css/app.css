@@ -11439,7 +11439,23 @@ body .copyright__item a {
 }
 @media (max-width: 767.98px) {
   body .nav__menu {
-    display: none;
+    top: -390px;
+    position: absolute;
+    background: rgba(186, 50, 79, 0.99);
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    transition: all 0.4s ease;
+    display: block !important;
+  }
+  body .nav__menu li {
+    text-align: center;
+    color: #fff;
+    padding: 35px 0;
+  }
+  body .nav__menu.is-active {
+    top: 100%;
+    transition: all 0.4s ease;
   }
 
   .swiper-button.swiper-button-next {

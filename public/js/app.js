@@ -50233,10 +50233,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 $('.nav__hamburger').on('click', function () {
   $(this).toggleClass('active');
-  $('.nav__menu').toggleClass('nav__menu--mobile');
-  setTimeout(function () {
-    $('.nav__menu').toggleClass('is-active');
-  }, 100);
+  $('.nav__menu').toggleClass('is-active');
 });
 $(".faq__item").on('click', function () {
   $(this).toggleClass('faq__item--is-open');
@@ -50246,6 +50243,17 @@ var swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"]('.swiper-
   // Optional parameters
   direction: 'horizontal',
   loop: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  }
+});
+var swiper2 = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"]('.swiper-container-hero-single', {
+  // Optional parameters
+  direction: 'horizontal',
+  allowTouchMove: false,
+  loop: false,
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
