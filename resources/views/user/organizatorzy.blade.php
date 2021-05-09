@@ -90,14 +90,19 @@
         </div>
     </div>
     
-    <footer class="footer">
+    <footer class="footer" id="kontakt">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="footer__brand">
                         <img src="{{asset('images/logo.svg')}}" alt="Logo Lex Sportiva">
                     </div>
-                    <div class="footer__text">W sporcie wyczynowym liczy się wytrwałość i konsekwencja. Wiemy to, bo świat sportu znamy zarówno z perspektywy zawodnika jak i organizatora imprez sportowych. Sport jest naszą pasją, a prawo naszą profesją. Dlatego zaufało nam wielu zawodowych sportowców i organizatorów największych imprez sportowych. Zapewniamy specjalistyczne wsparcie prawne dla uczestników rynku sportowego, tak zawodowego jak i amatorskiego.</div>
+                    <div class="footer__text">Lex Sportiva powstała jako połączenie sportowych pasji
+                        oraz prawniczej profesji. Wartości, jakimi się kierujemy, to
+                        zapewnienie profesjonalnego wsparcia prawnego
+                        uczestnikom rynku sportowego. Żebyś mógł poczuć
+                        się bezpiecznie i skupić się na tym, co dla Ciebie
+                        najważniejsze.</div>
                     <div class="footer__social">
                         <a href=""><img src="{{asset('images/facebook.svg')}}" alt=""></a>
                         <a href=""><img src="{{asset('images/linkedin.svg')}}" alt=""></a>
@@ -109,7 +114,7 @@
                     <p class="footer__description">Lorem ipsum dolor sit amet.</p>
                     <div class="footer__item"> <img src="{{asset('images/phone.svg')}}" alt=""> tel: + 48 660 787 207</div>
                     <div class="footer__item"> <img src="{{asset('images/email.svg')}}" alt=""> kontakt@lexsportiva.pl</div>
-                    <div class="footer__item"> <img src="{{asset('images/pin.svg')}}" alt=""> ul. Królowej Jadwigi 207, Kraków</div>
+                    <div class="footer__item"> <img src="{{asset('images/pin.svg')}}" alt=""> Kraków, Królowej Jadwigi 189B</div>
                 </div>
             </div>
         </div>
@@ -117,7 +122,7 @@
     <div class="copyright">
         <div class="container">
             <div class="copyright__wrapper">
-                <div class="copyright__item">2021 K.Kulig & Współpracownicy. Kancelria Prawnicza</div>
+                <div class="copyright__item">2021 Lex Sportiva | Kancelaria Prawa Sportowego</div>
                 <div class="copyright__item"><a href="">Polityka prywatności</a></div>    
             </div>
         </div>

@@ -16,6 +16,9 @@ const swiper = new Swiper('.swiper-container-hero', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
+    autoplay: {
+      delay: 5000,
+    },
   
     
   
@@ -32,6 +35,7 @@ const swiper = new Swiper('.swiper-container-hero', {
     direction: 'horizontal',
     allowTouchMove: false,
     loop: false,
+    
   
     
   
@@ -50,6 +54,10 @@ const swiper = new Swiper('.swiper-container-hero', {
     direction: 'horizontal',
     slidesPerView: 1,
     loop: true,
+    autoplay: {
+      delay: 5000,
+    },
+    
     breakpoints: {
     768: {
       slidesPerView: 2,

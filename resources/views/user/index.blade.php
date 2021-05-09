@@ -40,7 +40,7 @@
                     <div class="container">
                         <div class="hero__content">
                             <h2>Kancelaria Prawa Sportowego</h2>
-                            <h4>Środowisko sportowe, jego potrzeby i problemy znamy od środka, zarówno z perspektywy zawodników jak i organizatorów.</h4>
+                            <h4>Środowisko sportowe, jego potrzeby i problemy znamy od środka, zarówno z perspektywy zawodnika jak i organizatorów.</h4>
                             <a href="#uslugi" class="btn btn-primary">Dowiedz się więcej</a>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                     <div class="container">
                         <div class="hero__content">
                             <h2>Kancelaria Prawa Sportowego</h2>
-                            <h4>Środowisko sportowe, jego potrzeby i problemy znamy od środka, zarówno z perspektywy zawodników jak i organizatorów.</h4>
+                            <h4>Sport jest naszą pasją, a prawo naszą profesją. Dlatego zaufało nam wielu zawodowych sportowców i organizatorów największych imprez sportowych.</h4>
                             <a href="#faq" class="btn btn-primary">Dowiedz się więcej</a>
                         </div>
                     </div>
@@ -65,13 +65,17 @@
     <div class="service" id="uslugi">
         <div class="container">
             <div class="section__name">
-                <h2 class="section__title">Specjalistyczne wsparcie prawne</h2>
-                <p class="section__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, aperiam in molestias earum incidunt rerum.</p>
+                <h2 class="section__title">Usługi prawne dla rynku sportowego</h2>
+                <p class="section__desc">Reprezentujemy klientów w wielu obszarach branży
+                    sportowej, w tym doradzamy zawodowym i amatorskim
+                    sportowcom, managerom i agencjom sportowym,
+                    trenerom, kierownictwu drużyn, agencjom
+                    marketingowym i organom zarządzającym sportem.</p>
             </div>
             
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="service__item" style="background-image: url({{asset('images/sportowcy.jpg')}})">
+                    <div class="service__item" style="background-image: url({{asset('images/sportowcy1.jpg')}})">
                         <div class="service__content">
                             <a href="{{route('sportowcy')}}">
                                 <h5>Sportowcy</h5>
@@ -128,7 +132,7 @@
                             <a href="{{route('zwiazki')}}">
                                 <h5>Związki i kluby</h5>
                                 <div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto odit minima repellendus assumenda ratione labore eveniet quas, architecto voluptatum optio dicta esse culpa, possimus cupiditate? Optio quidem tempora eos molestiae.</p>
+                                    <p>Sport wyczynowy nie istniałby, gdyby nie organizacje rynku sportowego prowadzące zawodników, regulujące zasady współzawodnictwa i dbające o bezpieczeństwo w sporcie. Wspieramy związki sportowe, kluby i inne podmioty rynku sportowego w ich bieżącej działalności.</p>
                                     <div class="link-arrow">dowiedz się więcej</div>
                                 </div>
                             </a>
@@ -155,19 +159,30 @@
         <div class="container">
             <div class="section__name">
                 <h2 class="section__title">Potrzebujesz pomocy prawnej?</h2>
-                <p class="section__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, aperiam in molestias earum incidunt rerum.</p>
+                <p class="section__desc">Mamy doświadczenie w złożonym charakterze relacji
+                    między sportem, trenowaniem, rozrywką, zatrudnieniem,
+                    reklamą i doradztwem dla klientów.</p>
             </div>
             <div class="faq__item">
-                <div class="faq__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, exercitationem.</div>
-                <div class="faq__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi dolores aut iure. Nostrum dolores dicta totam maiores aspernatur. Consequatur facere, ratione eos maiores esse at exercitationem praesentium. Minus, aperiam dolorum!</div>
+                <div class="faq__title">Rozwiązujemy problemy</div>
+                <div class="faq__description">Reprezentujemy klientów we wszelkich kwestiach
+                    spornych wynikłych na tle prawa sportowego lub
+                    działalności uczestników rynku sportowego. Wspieramy w
+                    
+                    negocjacjach i doradzamy przy zawieraniu umów</div>
             </div>
             <div class="faq__item">
-                <div class="faq__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, exercitationem.</div>
-                <div class="faq__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi dolores aut iure. Nostrum dolores dicta totam maiores aspernatur. Consequatur facere, ratione eos maiores esse at exercitationem praesentium. Minus, aperiam dolorum!</div>
+                <div class="faq__title">Dbamy o Twoje bezpieczeństwo i przyszłość</div>
+                <div class="faq__description">Dbamy o przyszłość naszych klientów. Doradzamy w jaki
+                    sposób zabezpieczyć interesy majątkowe. Dążymy do
+                    tego, aby sport był bezpieczny i fair play</div>
             </div>
             <div class="faq__item">
-                <div class="faq__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, exercitationem.</div>
-                <div class="faq__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi dolores aut iure. Nostrum dolores dicta totam maiores aspernatur. Consequatur facere, ratione eos maiores esse at exercitationem praesentium. Minus, aperiam dolorum!</div>
+                <div class="faq__title">Pomagamy w Twoim rozwoju</div>
+                <div class="faq__description">Zapewniamy kompleksową opiekę prawną uczestnikom
+                    rynku sportowego – od zawodników, agentów,
+                    managerów, trenerów, organów zarządzających sportem
+                    aż po właścicieli klubów i ośrodków sportowych</div>
             </div>
         </div>
     </div>
@@ -178,9 +193,18 @@
             
                 <div class="row">
                     <div class="col-12 col-lg-6 about__text">
-                        <h3 class="about__title"><img src="{{asset('images/logo-emblemat.svg')}}" alt=""> Butkowa Kancelaria Prawnica</h3>
-                        <p class="about__description">Każdy lubi być traktowany indywidualnie. Odpowiedzialne doradztwo nie potrzebuje rozwiązań powierzchownych, ale dających poczucie bezpieczeństwa.</p>
-                        <p class="about__description">Wierzymy w konieczność indywidualnego podejścia do Klienta i budowania zaufania. Wierzymy, że są to cechy niezbędne dla profesjonalnej współpracy. Sytuacje czasami wymagają natychmiastowych działań. Jednak rozsądne doradztwo prawne dużo częściej wymaga zastanowienia się i poświęcenia czasu.</p>
+                        <h3 class="about__title"><img src="{{asset('images/logo-emblemat.svg')}}" alt=""> Butikowa Kancelaria Prawa Sportowego</h3>
+                        <p class="about__description">Radca prawny i doktor nauk prawnych.
+                            Ze światem sportu związany ponad 20 lat - jako zawodnik
+                            (biegacz narciarski, maratończyk, triathlonista) a także
+                            osoba uczestnicząca w organizacji imprez sportowych
+                            (m.in. Mistrzostw Świata w Biegach Górskich, Festiwalu
+                            Biegowego Forum Ekonomicznego). </p>
+                        <p class="about__description">Sumienność i
+                            wytrwałość wyniesioną z wytrzymałościowych dyscyplin
+                            sportowych wykorzystuje w codziennej pracy prawnika.
+                            Zachowuje prostotę w komunikacji, nie kryjąc się za
+                            niezrozumiałym żargonem prawniczym.</p>
                     </div>
                     <div class="col-12 col-lg-6 d-none d-lg-block">
                         <div class="wrapper">
@@ -225,7 +249,12 @@
                     <div class="footer__brand">
                         <img src="{{asset('images/logo.svg')}}" alt="Logo Lex Sportiva">
                     </div>
-                    <div class="footer__text">W sporcie wyczynowym liczy się wytrwałość i konsekwencja. Wiemy to, bo świat sportu znamy zarówno z perspektywy zawodnika jak i organizatora imprez sportowych. Sport jest naszą pasją, a prawo naszą profesją. Dlatego zaufało nam wielu zawodowych sportowców i organizatorów największych imprez sportowych. Zapewniamy specjalistyczne wsparcie prawne dla uczestników rynku sportowego, tak zawodowego jak i amatorskiego.</div>
+                    <div class="footer__text">Lex Sportiva powstała jako połączenie sportowych pasji
+                        oraz prawniczej profesji. Wartości, jakimi się kierujemy, to
+                        zapewnienie profesjonalnego wsparcia prawnego
+                        uczestnikom rynku sportowego. Żebyś mógł poczuć
+                        się bezpiecznie i skupić się na tym, co dla Ciebie
+                        najważniejsze.</div>
                     <div class="footer__social">
                         <a href=""><img src="{{asset('images/facebook.svg')}}" alt=""></a>
                         <a href=""><img src="{{asset('images/linkedin.svg')}}" alt=""></a>
@@ -237,7 +266,7 @@
                     <p class="footer__description">Lorem ipsum dolor sit amet.</p>
                     <div class="footer__item"> <img src="{{asset('images/phone.svg')}}" alt=""> tel: + 48 660 787 207</div>
                     <div class="footer__item"> <img src="{{asset('images/email.svg')}}" alt=""> kontakt@lexsportiva.pl</div>
-                    <div class="footer__item"> <img src="{{asset('images/pin.svg')}}" alt=""> ul. Królowej Jadwigi 207, Kraków</div>
+                    <div class="footer__item"> <img src="{{asset('images/pin.svg')}}" alt=""> Kraków, Królowej Jadwigi 189B</div>
                 </div>
             </div>
         </div>
@@ -245,7 +274,7 @@
     <div class="copyright">
         <div class="container">
             <div class="copyright__wrapper">
-                <div class="copyright__item">2021 K.Kulig & Współpracownicy. Kancelria Prawnicza</div>
+                <div class="copyright__item">2021 Lex Sportiva | Kancelaria Prawa Sportowego</div>
                 <div class="copyright__item"><a href="">Polityka prywatności</a></div>    
             </div>
         </div>
